@@ -1,0 +1,8 @@
+{
+    "a": "error",
+    "array": [
+        "string",
+        "trailing comma",
+    ],
+    notWrapped: 1
+}
