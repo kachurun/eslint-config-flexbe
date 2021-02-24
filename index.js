@@ -1,6 +1,6 @@
 module.exports = Object.assign(
     {
-        extends: 'airbnb-base'
+        extends: ['airbnb-base', 'airbnb-typescript/base']
     },
     require('./lib/settings'),
     require('./lib/plugins'),
