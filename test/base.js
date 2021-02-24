@@ -14,11 +14,12 @@ let e, f, g;
 const z = {
     a: 1,
     b: 2,
-    c: 3,
+    c: 3 == e,
 };
 
 // deny loops
-const array = [1, 2, 3];
+const array = [1,2, 3];
+
 for (let i in array) {
     console.log(array[i]);
 }
