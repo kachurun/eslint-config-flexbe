@@ -1,6 +1,6 @@
 {
   "name": "@flexbe/eslint-config",
-  "version": "1.4.2",
+  "version": "2.0.0",
   "description": "ESLint JS/TS config from Flexbe team",
   "main": "index.js",
   "dependencies": {
