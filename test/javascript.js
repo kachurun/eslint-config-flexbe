@@ -11,7 +11,7 @@ let c = d = 0;
 let e, f, g;
 
 // comma dangle
-const z = {
+  const z = {
     a: 1,
     b: 2,
     c: 3 == e,
