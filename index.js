@@ -1,12 +1,23 @@
-module.exports = Object.assign(
-    {
-        extends: ['airbnb-typescript']
-    },
+const rules = require('./lib/rules');
 
-    require('./lib/settings'),
-    require('./lib/plugins'),
-    require('./lib/rules'),
-    require('./lib/globals'),
-    require('./lib/env'),
-    require('./lib/parser')
-);
+const settings = require('./lib/settings');
+const plugins = require('./lib/plugins');
+const globals = require('./lib/globals');
+const env = require('./lib/env');
+const parser = require('./lib/parser');
+const typescript = require('./lib/typescript');
+
+module.exports = {
+    extends: ['airbnb-base'],
+
+    ...parser,
+    settings,
+    plugins,
+    rules,
+    globals,
+    env,
+
+    overrides: [
+        typescript
+    ]
+};
