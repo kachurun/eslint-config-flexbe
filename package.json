@@ -1,6 +1,6 @@
 {
   "name": "@flexbe/eslint-config",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "ESLint JS/TS config from Flexbe team",
   "main": "index.js",
   "dependencies": {
@@ -24,8 +24,7 @@
     "typescript": "^4.2.2"
   },
   "scripts": {
-    "lint": "npx eslint .",
-    "publish": "npm publish"
+    "lint": "npx eslint ."
   },
   "repository": {
     "type": "git",
