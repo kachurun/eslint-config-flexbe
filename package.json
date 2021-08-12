@@ -28,7 +28,7 @@
   "scripts": {
     "lint": "npx eslint .",
     "bump_deps": "npx npm-check-updates -u; npm i;",
-    "bump_version": "npm version",
+    "bump_version": "npm version minor",
     "publish": "npm publish"
   },
   "repository": {

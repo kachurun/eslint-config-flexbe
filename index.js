@@ -8,7 +8,7 @@ const parser = require('./lib/parser');
 const typescript = require('./lib/typescript');
 
 module.exports = {
-    extends: ['airbnb-base'],
+    extends: ['airbnb-base', 'plugin:jest/recommended'],
 
     ...parser,
     settings,
